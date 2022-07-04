@@ -131,7 +131,7 @@ img {
  /* SMARTPHONE */
 @media screen and (max-width: 480px) {
     .container {
-      width: 480px;
+      max-width: 480px;
     }
     .row {
         flex-wrap: wrap;
@@ -169,6 +169,6 @@ img {
  /* TABLET */ 
  @media screen and (max-width: 768px) and (min-width: 481px) {
     .container {
-      width: 768px;
+      max-width: 768px;
     }
 }
